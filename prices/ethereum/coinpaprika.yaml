@@ -3,6 +3,11 @@
   symbol: DMG
   address: 0xEd91879919B71bB6905f23af0A68d231EcF87b14
   decimals: 18
+- name: kawa-kawa
+  id: kawa-kawa
+  symbol: KAWA
+  address: 0x546aed37d202d607f45cbd2b8c0cad0d25fbe339
+  decimals: 18
 - name: srm_serum
   id: srm-serum
   symbol: SRM
@@ -1307,7 +1312,7 @@
   decimals: 6
 - name: tryb_bilira
   id: tryb-bilira
-  symbol: TRYb
+  symbol: TRYB
   address: 0x2c537e5624e4af88a7ae4060c022609376c8d0eb
   decimals: 6
 - name: utnp_universa
@@ -1769,4 +1774,130 @@
   id: ppblz-pepemon-pepeballs
   symbol: PPBLZ
   address: 0x4d2ee5dae46c86da2ff521f7657dad98834f97b8
+  decimals: 18
+- name: dydx_dydx
+  id: dydx-dydx
+  symbol: DYDX
+  address: 0x92d6c1e31e14520e676a687f0a93788b716beff5
+  decimals: 18
+- name: move_mover
+  id: move-mover
+  symbol: MOVE
+  address: 0x3fa729b4548becbad4eab6ef18413470e6d5324c
+  decimals: 18
+- name: nrg_energi
+  id: nrg-energi
+  symbol: NRG
+  address: 0x1416946162b1c2c871a73b07e932d2fb6c932069
+  decimals: 18
+- name: bpro_bprotocol
+  id: bpro-bprotocol
+  symbol: BPRO
+  address: 0xbbbbbbb5aa847a2003fbc6b5c16df0bd1e725f61
+  decimals: 18
+  decimals: 18
+- name: bent_finance
+  id: bent-bent-finance
+  symbol: BENT
+  address: 0x01597e397605bf280674bf292623460b4204c375
+  decimals: 18
+- name: agix_singularitynet
+  id: agix-singularitynet
+  symbol: AGIX
+  address: 0x5B7533812759B45C2B44C19e320ba2cD2681b542
+  decimals: 8
+- name: sdao_singularitydao
+  id: sdao-singularitydao
+  symbol: SDAO
+  address: 0x993864e43caa7f7f12953ad6feb1d1ca635b875f
+  decimals: 18
+- name: ntx_nunet
+  id: ntx-nunet
+  symbol: NTX
+  address: 0xf0d33beda4d734c72684b5f9abbebf715d0a7935
+  decimals: 6
+- name: xsgd_xsgd
+  id: xsgd-xsgd
+  symbol: XSGD
+  address: 0x70e8de73ce538da2beed35d14187f6959a8eca96
+  decimals: 6
+- name: unfi_unifi_protocol
+  id: unfi-unifi-protocol
+  symbol: UNFI
+  address: 0x441761326490cACF7aF299725B6292597EE822c2
+  decimals: 18
+- name: sync_sync_network
+  id: sync-sync-network
+  symbol: SYNC
+  address: 0xb6ff96b8a8d214544ca0dbc9b33f7ad6503efd32
+  decimals: 18
+- name: up_unifi_protocol
+  id: up-unifi-protocol
+  symbol: UP
+  address: 0xb6c5c839cef46082a2b51164e8db649c121f147e
+  decimals: 18
+- name: near_protocol
+  id: near-near-protocol
+  symbol: NEAR
+  address: 0x85f17cf997934a597031b2e18a9ab6ebd4b9f6a4
+  decimals: 24
+- name: bitdao
+  id: bit-bitdao
+  symbol: BIT
+  address: 0x1a4b46696b2bb4794eb3d4c26f1c55f9170fa4c5
+  decimals: 18
+- name: fox-token
+  id: fox-fox-token
+  symbol: FOX
+  address: 0xc770eefad204b5180df6a14ee197d99d808ee52d
+  decimals: 18
+- name: bios-0xnodes
+  id: bios-0xnodes
+  symbol: BIOS
+  address: 0xAACa86B876ca011844b5798ECA7a67591A9743C8
+  decimals: 18
+- name: pooltogether
+  id: pool-pooltogether
+  symbol: POOL
+  address: 0x0cec1a9154ff802e7934fc916ed7ca50bde6844e
+  decimals: 18
+- name: biconomy
+  id: bico-biconomy
+  symbol: BICO
+  address: 0xf17e65822b568b3903685a7c9f496cf7656cc6c2
+  decimals: 18
+- name: gp-wnd
+  id: gp-wizards-and-dragons
+  symbol: GP
+  address: 0x38ec27c6f05a169e7ed03132bca7d0cfee93c2c5
+  decimals: 18
+- name: ash
+  id: ash-ash
+  symbol: ASH
+  address: 0x64d91f12ece7362f91a6f8e7940cd55f05060b92
+  decimals: 18
+- name: kylin-network-token
+  id: kyl-kylin-network-token
+  symbol: KYL
+  address: 0x67b6d479c7bb412c54e03dca8e1bc6740ce6b99c
+  decimals: 18
+- name: tempus-finance
+  id: temp-tempus
+  symbol: TEMP
+  address: 0xa36fdbbae3c9d55a1d67ee5821d53b50b63a1ab9
+  decimals: 18
+- name: dfx-finance
+  id: dfx-dfx-finance
+  symbol: DFX
+  address: 0x888888435fde8e7d4c54cab67f206e4199454c60
+  decimals: 18
+- name: sos-opendao
+  id: sos-opendao
+  symbol: SOS
+  address: 0x3b484b82567a09e2588a13d54d032153f0c0aee0
+  decimals: 18
+- name: Tribe
+  id: tribe-tribe
+  symbol: TRIBE
+  address: 0xc7283b66eb1eb5fb86327f08e1b5816b0720212b
   decimals: 18

@@ -4,6 +4,11 @@
 - name: bnb_binance_coin
   id: bnb-binance-coin
   symbol: BNB
+- address: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c'
+  name: bnb-binance-coin
+  id: bnb-binance-coin
+  symbol: WBNB
+  decimals: 18
 - address: '0x2170ed0880ac9a755fd29b2688956bd959f933f8'
   decimals: 18
   id: eth-ethereum
@@ -459,3 +464,18 @@
   id: cummies-cumrocket
   name: CumRocket
   symbol: CUMMIES
+- address: '0xBA96731324dE188ebC1eD87ca74544dDEbC07D7f'
+  decimals: 18
+  id: titano-titano
+  name: Titano
+  symbol: TITANO
+- address: '0x7ad7242a99f21aa543f9650a56d141c57e4f6081'
+  decimals: 9
+  id: jade-jade-protocol
+  name: Jade Protocol
+  symbol: JADE
+- address: '0xa77346760341460b42c230ca6d21d4c8e743fa9c'
+  decimals: 18
+  id: pets-micropets
+  name: MicroPets
+  symbol: PETS

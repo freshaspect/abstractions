@@ -64,10 +64,10 @@ WITH rows AS (
             t."to" AS trader_a,
             NULL::bytea AS trader_b,
             CASE WHEN "amount0Out" = 0 THEN "amount1Out" ELSE "amount0Out" END AS token_a_amount_raw,
-            CASE WHEN "amount0In" = 0 THEN "amount1In" ELSE "amount0In" END AS token_b_amount_raw,
+            CASE WHEN "amount0In" = 0 OR "amount1Out" = 0 THEN "amount1In" ELSE "amount0In" END AS token_b_amount_raw,
             NULL::numeric AS usd_amount,
             CASE WHEN "amount0Out" = 0 THEN f.token1 ELSE f.token0 END AS token_a_address,
-            CASE WHEN "amount0In" = 0 THEN f.token1 ELSE f.token0 END AS token_b_address,
+            CASE WHEN "amount0In" = 0 OR "amount1Out" = 0 THEN f.token1 ELSE f.token0 END AS token_b_address,
             t.contract_address AS exchange_contract_address,
             t.evt_tx_hash AS tx_hash,
             NULL::integer[] AS trace_address,
@@ -77,6 +77,7 @@ WITH rows AS (
         INNER JOIN uniswap_v2."Factory_evt_PairCreated" f ON f.pair = t.contract_address
         WHERE t.contract_address NOT IN (
             '\xed9c854cb02de75ce4c9bba992828d6cb7fd5c71', -- remove WETH-UBOMB wash trading pair
+            '\xf9c1fA7d41bf44ADe1dd08D37CC68f67Ae75bF92', -- remove WETH-WETH wash trading pair 
             '\x854373387e41371ac6e307a1f29603c6fa10d872' ) -- remove FEG/ETH token pair
         AND t.evt_block_time >= start_ts AND t.evt_block_time < end_ts
 
